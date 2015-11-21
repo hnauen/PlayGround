@@ -1,0 +1,12 @@
+---
+provisioning:
+  cpus:           1
+  memory:         1024
+  vm_hostname:    'playground'
+  private_ip:     '192.168.22.22'
+  server_name:    'playground.local'
+  mysql_password: 'root'
+  host_webroot:   './htdocs/'
+  hostmanager_aliases:
+    - 'www.playground.local'
+    - 'data.playground.local'
